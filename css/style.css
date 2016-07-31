@@ -187,11 +187,15 @@ box-shadow:         0px 16px 16px -8px rgba(0, 0, 0, 0.7);
 
 }
 
-.precio  .table{
+.precio  .table {
 margin-bottom: 0;
 background-color: rgba(0, 0, 0, 0.2);
+text-align: center;
 }
-
+.precio  .table th {
+  text-align: center;
+}
 .rojo{
   color: orange;
+  text-align: center;
 }
