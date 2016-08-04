@@ -64,10 +64,10 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Otros productos
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="http://motoresfueradeborda.cl">Motores fuera de borda</a></li>
-                          <li><a href="http://carrosdearrastre.cl">Carros de arrastre</a></li>
-                          <li><a href="http://kayakinflable.cl">Kayak inflable</a></li>
-                          <li><a href="http://pescasubmarina.cl">Traje pesca submarina</a></li>
+                          <li><a href="http://motoresfueradeborda.cl" target="_blank">Motores fuera de borda</a></li>
+                          <li><a href="http://carrosdearrastre.cl" target="_blank">Carros de arrastre</a></li>
+                          <li><a href="http://kayakinflable.cl" target="_blank">Kayak inflable</a></li>
+                          <li><a href="http://pescasubmarina.cl" target="_blank">Traje pesca submarina</a></li>
                         </ul>
                       </li>
 
@@ -160,15 +160,7 @@
                     <h2>Pesca en Bote de 3.60 metros</h2>
                 </div>
             </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style=
-                "background-image:url('images/bote-inflable-bluebay-azul.jpg');">
-                </div>
-                <div class="carousel-caption">
-                    <h2>Bote de 4.20 metros, seis a bordo</h2>
-                </div>
-            </div>
+
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style=
@@ -589,5 +581,14 @@
   ga('send', 'pageview');
 
 </script>
+
+<script>
+$(function(){
+   var navMain = $("#navbarCollapse");
+   navMain.on("click", "a", null, function () {
+       navMain.collapse('hide');
+   });
+});
+ </script>
 </body>
 </html>
