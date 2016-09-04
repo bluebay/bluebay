@@ -14,6 +14,10 @@ body {
   padding-bottom: 30px;
 }
 
+.navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
 .navbar-inverse ul.menu2>li>a {
   color: white;
 }
