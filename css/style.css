@@ -120,6 +120,12 @@ vertical-align: middle;
 }
 
 
+@media (min-width: 768px) {
+  .subcontenedor3b img.bote-ruedas-image {
+    max-width: 400px;
+  }
+}
+
 span.advertencia {
 color: rgba(255, 255, 255, 1);
 
